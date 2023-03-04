@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'MemphisRiver';
+    src: url(font/MemphisRiver.ttf) format('truetype');
+    @font-face {
+        font-family: 'Roblox';
+        src: url(font/Roblox-font-regular.tff) format('truetype');
+        font-family: normal;
+    }
+    @font-face {
+        font-family: 'Roblox';
+        src: url(font/Roblox-font-Bold.tff) format('truetype');
+        font-family: bold;
+    }
+}
+.preview {
+   background-color: #1f0c42;
+}
+.parent {
+    display: flex;
+    
+}
+.child2, .child3, .child4 {
+    flex-basis: 15%;
+    font-family: 'Roblox';
+}
+.child1 {
+    font-weight: bold;
+    flex-grow: 0.5;
+    font-family: 'MemphisRiver', sans-serif;
+}
+ {
+color: aliceblue;
+
+}
+.wrap {
+    margin-left: 20%;
+    color: white;
+    
+}
+.placeholder {
+    
+        float: right: border: 12px;;;
+    }
+
+.some-random-text {
+text-align: center;
+}
